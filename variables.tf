@@ -18,4 +18,5 @@ variable "dns_servers" {
 
 variable "tags" {
   default = {}
+  type    = map(string)
 }
